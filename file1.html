@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        nav .left{
+            justify-content: left;
+            margin: 10px 0;
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav ul li{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 10px;
+        }
+        ul li a{
+            color: black;
+        }
+        #b1{
+            color:rgb(0, 187, 255);
+            background-color: white;
+            border-radius: 2px;
+            border: 1px solid rgb(0, 187, 255);
+        }
+        .d1{
+            /* display: flex; */
+            justify-content: center;
+            background-color: aqua;
+            width: 100%;
+            height: 200px;
+            padding-top: 0px;
+            margin-top: 10px;
+        }
+        .title{
+            /* align-items: center; */
+            justify-content: center;
+            padding-top: 10px;
+            margin-top: 10px;
+            margin-left: 25%;
+            padding-left: 20%;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size:x-large;
+        }
+        .d2{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            text-align: center;
+            padding-top: 10px;
+            margin-top: 10px;   
+            margin-left: 20%;
+            padding-left: 20%;
+            margin-right: 20%;
+            padding-right: 20%;
+            padding-bottom: 10px;
+            color: white;
+        }
+        .s{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .s1{
+            display: flex;
+            justify-content: center;
+            font-size: xx-large;
+            font-family: 'Times New Roman', Times, serif;
+            padding-top: 50px;
+        }
+        .s2{
+            display: flex;
+            justify-content: center;
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+            padding-top: 20px;
+        }
+        .i1{
+            display: flex;
+            justify-content: space-around;
+            /* justify-content: center; */
+            padding-top: 20px;
+            margin-top: 20px;   
+            padding-bottom: 30px;
+            margin-bottom: 30px;         
+            height: 100px;
+        }
+        .s4{
+            height: 80px;
+            width: 150px;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+        }
+        img{
+            height: 100px;
+            width:183px;
+            padding-bottom: 10px;
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="left">Title</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Blog</a></li>
+                <li><a href="/">Content</a></li>
+                <li><span class="btn"><button id="b1">Button</button><span></li>
+        </div></nav>
+    </header>  
+    <hr>
+    <main>
+        <section class="d1">
+        <section class="title">Title</section>
+        <section class="d2">
+            Lorem ipsum dolor sit amet, consector adipiscing elit.
+            This is my website!
+        </section> 
+        <section class="b"><span class="s"><button id="b2">Read More</button></span></section>
+    </section>
+    <section class="d3">
+        <section class="s1">Classes</section>
+        <section class="s2">Lorem ipsum dolor sit amet, consectutor adipiscing elit. Mecenus risus mi, egestatus et imperdiet.</section>
+    </section>
+    <section class="s3">
+        <div class="i1">
+            <section class="s4">
+            <img src="images/training-certification/Basic-DITA%E2%80%93XML.jpg" alt="Add Image"/>
+            <strong>Technical writing</strong>
+            This course focuses on understanding the basics of technical writing and developing technical writing skills. In this course you will learn techniques to...
+            <br><button>View</button>
+        </section>
+            <section class="s4">
+                <img src="images/training-certification/Simplified-Technical-English.jpg" alt="Add Image"/>
+                <strong>Confluence Basic</strong> course focuses to ensure your documentation-type content is easy to manage and consume. This skill builder covers useful...<br><button>View</button></section>
+            <section class="s4">
+                <img src="images/training-certification/Basic-DITA%E2%80%93XML.jpg" alt="Add Image"/><strong>Confluence Advanced
+            </strong>This course guide end users to create their own easy to use and well-formatted content. This Skillbuilder covers templates, page...<br><button>View</button></section>
+        </div>
+        <div class="i1">
+            <section class="s4">
+                <img src="images/training-certification/Basic-DITA%E2%80%93XML.jpg" alt="Add Image"/>
+            
+            <strong>XML Author</strong>
+            This course focuses on understanding the basics of technical writing and developing technical writing skills. In this course you will learn techniques to...
+            <br><button>View</button></section>
+            <section class="s4">
+                <img src="images/training-certification/Basic-DITA%E2%80%93XML.jpg" alt="Add Image"/>
+                <strong>Advanced Technical Api</strong> course focuses to ensure your documentation-type content is easy to manage and consume. This skill builder covers useful techniques to surface relevant ...<br><button>View</button></section>
+            <section class="s4">
+                <img src="images/training-certification/Basic-DITA%E2%80%93XML.jpg" alt="Add Image"/><strong>Basic DITA-XML
+            </strong>This course guide end users to create their own easy to use and well-formatted content. This Skillbuilder covers templates, page and space structure, and cat...<br><button>View</button></section>
+        </div>
+    </section>
+    </main>
+    
+</body>
+</html>
